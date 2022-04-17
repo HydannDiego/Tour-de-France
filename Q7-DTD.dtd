@@ -1,0 +1,24 @@
+<!ELEMENT racine (documentation | tdf)*>
+<!ELEMENT documentation (#PCDATA | lien)*> 
+<!ELEMENT lien (#PCDATA)>
+<!ATTLIST documentation date CDATA #IMPLIED>
+<!ATTLIST documentation auteur CDATA #IMPLIED>
+
+<!ELEMENT tdf (coureurs, equipes)>
+
+<!ELEMENT coureurs (coureur*)>
+<!ELEMENT coureur (nomC, prenomC,tempsC,nationaliteC)>
+<!ELEMENT nationalite (#PCDATA)>
+<!ELEMENT temps (#PCDATA)>
+
+<!ATTLIST coureur idC ID #REQUIRED>
+<!ATTLIST coureur idE ID #REQUIRED>
+<!ELEMENT nomC (#PCDATA)>
+<!ELEMENT prenomC (#PCDATA)>
+
+<!ELEMENT equipes (equipe*)>
+<!ELEMENT equipe (nomE,budgetE,score_influenceC)>
+<!ELEMENT budgetE (#PCDATA)>
+<!ELEMENT score_influence (#PCDATA)>
+<!ELEMENT nomE (#PCDATA)>
+<!ATTLIST equipe idEquipe ID #REQUIRED>

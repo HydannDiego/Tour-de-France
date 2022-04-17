@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Q7-DTD.dtd" type="application/xml-dtd"?>
+<?xml-stylesheet href="styleQ8b.css" type="text/css"?>
+
+<!DOCTYPE carnet SYSTEM "index.dtd">
+<racine>    
+    <documentation auteur="Diego Poupiot" date="26/01/2022">
+        Tour de France : 2022
+        <br>Le Tour de France est une compétition cycliste par étapes masculine qui traverse la France avec des incursions occasionnelles dans les pays voisins.</br>
+        <br>Sa première édition a lieu en 19031 pour augmenter les ventes du journal L'Auto, organisée par Henri Desgrange et Géo Lefèvre.</br>
+        <br>Depuis, la course a lieu chaque année, excepté lors des deux guerres mondiales.</br>
+        <br>Souvent appelé « le Tour » tout court, ou « la Grande Boucle », il gagne en importance et en popularité au fil des éditions ; la participation s'élargit, on passe d'un peloton principalement français les premières années, à des éditions comptant jusqu'à 40 nationalités, sa durée est allongée et sa portée s'étend dans le monde entier.</br>
+        <br>Diffusé à la télévision dans 190 pays2, le Tour de France est le 3e événement sportif le plus regardé, derrière les Jeux olympiques d'été3 et la Coupe du monde de football.</br>
+        <br>Il est actuellement organisé par ASO (Groupe Amaury).</br>
+        <lien xmlns:xlink="https://www.letour.fr/fr">SITE LETOUR.FR : https://www.letour.fr/fr</lien>
+        <lien>https://www.lequipe.fr/Cyclisme-sur-route/Tour-de-france/</lien>
+        <lien>https://www.usine-digitale.fr/article/tour-de-france-le-big-data-entre-dans-la-course-pour-evaluer-les-coureurs-en-temps-reel.N339838</lien>
+    </documentation>
+    <tdf>
+        TOUR DE FRANCE
+        <coureurs>COUREURS
+            <coureur idC="1" idE="1">
+                <nomC>GROSGEAN</nomC>
+                <prenomC>Robin</prenomC>
+                <temps>00:00:0000</temps>
+                <nationalite>France</nationalite>
+            </coureur>
+            <coureur idC="2" idE="2">
+                <nomC>BALEVEN</nomC>
+                <prenomC>John</prenomC>
+                <temps>00:00:0000</temps>
+                <nationalite>Danemark</nationalite>
+            </coureur>
+            <coureur idC="3" idE="5">
+                <nomC>KONAME</nomC>
+                <prenomC>Thierry</prenomC>
+                <temps>00:00:0000</temps>
+                <nationalite>Ethiopie</nationalite>
+            </coureur>
+        </coureurs>
+        <equipes>EQUIPES
+            <equipe idEquipe="1">
+                <nomE>Cofidis</nomE>
+                <budgetE>500000</budgetE>
+                <score_influenceC>10</score_influenceC>
+            </equipe>
+            <equipe idEquipe="2">
+                <nomE>Leclerc</nomE>
+                <budgetE>100000</budgetE>
+                <score_influenceC>3</score_influenceC>
+            </equipe>
+            <equipe idEquipe="5">
+                <nomE>Vitel</nomE>
+                <budgetE>9000000</budgetE>
+                <score_influenceC>1</score_influenceC>
+            </equipe>
+        </equipes>
+    </tdf>
+</racine>
