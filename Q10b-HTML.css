@@ -1,4 +1,5 @@
 *{
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     list-style:none;
@@ -7,9 +8,11 @@
 
 
   }
+
 a{
     color: darkslategray;
 }
+
 .secondblock{
     height: 30em;
     padding: 2%;
@@ -37,7 +40,6 @@ a{
     padding-left: 5%;
     padding-right: 5%;
     color: darkslategray;
-    font-family: 'Raleway', sans-serif;
 }
 .lien2{
     text-decoration: none;
@@ -94,7 +96,7 @@ h1 {
 
 .menu {
     display: flex;                /* Transformation en flexbox */
-    padding:0;                    /* Suppression des marges internes */
+    padding: 0;                    /* Suppression des marges internes */
     background-color: lightblue;       /* Ajout de la couleur d'arrière-plan */
     justify-content: space-around;/* Alignements des liens dans le menu */
 }
@@ -115,7 +117,7 @@ h1 {
     border: 1px solid #fff;       /* Ajout d'une bordure */
     border-radius: 4px;           /* Arrondis des bordures */
     
-    transition: all 1s ;          /* Ajout des effets de transition */
+    transition: all 0.2s ;          /* Ajout des effets de transition */
 }
 .menu a.actif {    
     background-color: #000 ; 
@@ -124,7 +126,7 @@ h1 {
 }
 .menu a:hover,
 .menu a:hover.actif{
-    background-color: #ed2794;
+    background-color: #ed7627;
     color: #ffe843;
     border-color: #ffe843;
 }
@@ -152,4 +154,13 @@ table{
 .fav{
     width: 60%;
     float: right;
+
+}
+
+.mcd-container {
+    padding: 5px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
