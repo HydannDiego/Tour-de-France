@@ -4,21 +4,48 @@
 <!ATTLIST documentation date CDATA #IMPLIED>
 <!ATTLIST documentation auteur CDATA #IMPLIED>
 
-<!ELEMENT tdf (coureurs, equipes)>
+<!ELEMENT tdf (coureurs | equipes | dossards | velos | sponsors | #PCDATA)*>
 
 <!ELEMENT coureurs (coureur*)>
 <!ELEMENT coureur (nomC, prenomC,tempsC,nationaliteC)>
-<!ELEMENT nationalite (#PCDATA)>
-<!ELEMENT temps (#PCDATA)>
-
-<!ATTLIST coureur idC ID #REQUIRED>
-<!ATTLIST coureur idE ID #REQUIRED>
 <!ELEMENT nomC (#PCDATA)>
 <!ELEMENT prenomC (#PCDATA)>
+<!ELEMENT nationalite (#PCDATA)>
+<!ELEMENT temps (#PCDATA)>
+<!ATTLIST coureur idC ID #REQUIRED>
+<!ATTLIST coureur idE ID #IMPLIED>
 
 <!ELEMENT equipes (equipe*)>
 <!ELEMENT equipe (nomE,budgetE,score_influenceC)>
+<!ELEMENT nomE (#PCDATA)>
 <!ELEMENT budgetE (#PCDATA)>
 <!ELEMENT score_influence (#PCDATA)>
-<!ELEMENT nomE (#PCDATA)>
 <!ATTLIST equipe idEquipe ID #REQUIRED>
+<!ATTLIST equipe idSponsorE ID #IMPLIED>
+
+<!ELEMENT dossards (dossard*)>
+<!ELEMENT dossard (nomD, couleurD)>
+<!ELEMENT nomD (#PCDATA)>
+<!ELEMENT couleurD (#PCDATA)>
+<!ATTLIST dossard idDossard ID #REQUIRED>
+
+<!ELEMENT velos (velo*)>
+<!ELEMENT velo (marque, prix, type)>
+<!ELEMENT marque (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST velo idVelo ID #REQUIRED>
+
+<!ELEMENT etapes (etape*)>
+<!ELEMENT etape (typeEtape, ville_a, ville_b, distance)>
+<!ELEMENT typeEtape (#PCDATA)>
+<!ELEMENT ville_a (#PCDATA)>
+<!ELEMENT ville_b (#PCDATA)>
+<!ELEMENT distance (#PCDATA)>
+<!ATTLIST etape idEtape ID #REQUIRED>
+
+<!ELEMENT sponsors (sponsor*)>
+<!ELEMENT sponsor (nomS, reputation)>
+<!ELEMENT nomS (#PCDATA)>
+<!ELEMENT reputation (#PCDATA)>
+<!ATTLIST sponsor idSponsor ID #REQUIRED>

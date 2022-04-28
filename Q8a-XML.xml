@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Q7-DTD.dtd" type="application/xml-dtd"?>
-<?xml-stylesheet href="styleQ8a.css" type="text/css"?>
+<?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
 
 <!DOCTYPE carnet SYSTEM "index.dtd">
 <racine>
@@ -22,19 +22,19 @@
             <coureur idC="1" idE="1">
                 <nomC>GROSGEAN</nomC>
                 <prenomC>Robin</prenomC>
-                <temps>00:00:0000</temps>
+                <temps>19:12:0234</temps>
                 <nationalite>France</nationalite>
             </coureur>
             <coureur idC="2" idE="2">
                 <nomC>BALEVEN</nomC>
                 <prenomC>John</prenomC>
-                <temps>00:00:0000</temps>
+                <temps>19:23:4231</temps>
                 <nationalite>Danemark</nationalite>
             </coureur>
             <coureur idC="3" idE="5">
                 <nomC>KONAME</nomC>
                 <prenomC>Thierry</prenomC>
-                <temps>00:00:0000</temps>
+                <temps>20:00:1233</temps>
                 <nationalite>Ethiopie</nationalite>
             </coureur>
         </coureurs>
@@ -44,16 +44,70 @@
                 <budgetE>500000</budgetE>
                 <score_influenceC>10</score_influenceC>
             </equipe>
-            <equipe idEquipe="2">
+            <equipe idEquipe="2" idSponsorE="1">
                 <nomE>Leclerc</nomE>
                 <budgetE>100000</budgetE>
                 <score_influenceC>3</score_influenceC>
             </equipe>
-            <equipe idEquipe="5">
+            <equipe idEquipe="5" idSponsorE="2">
                 <nomE>Vitel</nomE>
                 <budgetE>9000000</budgetE>
                 <score_influenceC>1</score_influenceC>
             </equipe>
         </equipes>
+        <dossards>
+            <dossard idDossard="1">
+                <nomD>Maillot Jaune</nomD>
+                <couleurD>Jaune</couleurD>
+            </dossard>
+            <dossard idDossard="2">
+                <nomD>Jeune</nomD>
+                <couleurD>Vert</couleurD>
+            </dossard>
+        </dossards>
+        <velos>
+            <velo idVelo="1">
+                <marque>Lapierre</marque>
+                <type>Plat</type>
+                <prix>5000</prix>
+            </velo>
+            <velo idVelo="2">
+                <marque>Cannondale</marque>
+                <type>Grimpe</type>
+                <prix>7000</prix>
+            </velo>
+        </velos>
+        <etapes>
+            <etape idEtape="1">
+                <typeEtape>C.L.M INDIVIDUEL</typeEtape>
+                <ville_a>COPENHAGUE</ville_a>
+                <ville_b>COPENHAGUE</ville_b>
+                <distance>13</distance>
+            </etape>
+            <etape idEtape="1">
+                <typeEtape>PLAT</typeEtape>
+                <ville_a>ROSKILDE</ville_a>
+                <ville_b>NYBORG</ville_b>
+                <distance>199</distance>
+            </etape>
+        </etapes>
+        <sponsors>
+            <sponsor idSponsor="1">
+                <nomS>Leclerc</nomS>
+                <reputation>1</reputation>
+            </sponsor>
+            <sponsor idSponsor="2">
+                <nomS>Skoda</nomS>
+                <reputation>2</reputation>
+            </sponsor>
+            <sponsor idSponsor="3">
+                <nomS>Krys</nomS>
+                <reputation>3</reputation>
+            </sponsor>
+            <sponsor idSponsor="4">
+                <nomS>LCL</nomS>
+                <reputation>4</reputation>
+            </sponsor>
+        </sponsors>
     </tdf>
 </racine>

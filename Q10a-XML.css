@@ -1,0 +1,148 @@
+racine {
+	margin-left: 10%;
+	margin-right: 10%;
+    background-color: rgb(255, 226, 62);
+    font-family:Arial,sans-serif; color:black;
+    font-size:15pt;
+}
+
+documentation {
+    display: block;
+    margin-top: 5%;
+    background: rgb(255, 255, 255)
+}
+
+lien {
+    display: block;
+    color: blue;
+}
+
+tdf {
+    display: block;
+    margin-top: 5%;
+    font-size: 20pt;
+    color: white;
+    background: rgb(76, 27, 255)
+}
+
+coureurs {
+    font-size: 15pt;
+        
+}
+
+coureur {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background: white;
+    color: black;
+}
+
+nomC, prenomC {
+    background-color: red;
+    color: white;
+}
+
+nationalite, prix, score_influenceC, distance, reputation {
+    border-width:1px;
+    border-style: ridge;
+    border-color:black;
+}
+
+equipes {
+    font-size: 15pt;
+    margin: 5%;
+}
+
+equipe {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background: white;
+    color: black;
+}
+
+nomE {
+    background-color: orange;
+    color: white;
+}
+
+dossards {
+    font-size: 15pt;
+    margin: 5%;
+}
+
+dossard {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background: white;
+    color: black;
+}
+
+nomD {
+    background-color: teal;
+    color: white;
+}
+
+velos {
+    font-size: 15pt;
+    margin: 5%;
+}
+
+velo {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background: white;
+    color: black;
+}
+
+marque {
+    background-color: darkorchid;
+    color: white;
+}
+
+etapes {
+    font-size: 15pt;
+    margin: 5%;
+}
+
+etape {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background: white;
+    color: black;
+}
+
+temps, budgetE, couleurD, type, ville_a, ville_b {
+    border-width:1px;
+    border-style: dashed;
+    border-color:black;
+    background-color: gray;
+    color: white;
+}
+
+typeEtape {
+    background-color: royalblue;
+    color: white;
+}
+
+sponsors {
+    font-size: 15pt;
+    margin: 5%;
+}
+
+sponsor {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background: white;
+    color: black;
+}
+
+nomS {
+    background-color: peru;
+    color: white;
+}
