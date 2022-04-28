@@ -2,7 +2,7 @@
 <?xml-model href="Q7-DTD.dtd" type="application/xml-dtd"?>
 <?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
 
-<!DOCTYPE carnet SYSTEM "index.dtd">
+<!DOCTYPE racine SYSTEM "index.dtd">
 <racine> 
     <documentation auteur="Diego Poupiot" date="26/01/2022">
         Le Tour de France est une compétition cycliste par étapes masculine qui traverse la France avec des incursions occasionnelles dans les pays voisins.

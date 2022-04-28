@@ -2,7 +2,7 @@
 <?xml-model href="Q7-DTD.dtd" type="application/xml-dtd"?>
 <?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
 
-<!DOCTYPE carnet SYSTEM "index.dtd">
+<!DOCTYPE racine SYSTEM "index.dtd">
 <racine>
     <documentation auteur="Elouan Barbier" date="18/10/2005">
         La partie MCD utilise MOCODO dont l’adresse est 

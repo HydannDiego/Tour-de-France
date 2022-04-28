@@ -4,16 +4,16 @@
 <!ATTLIST documentation date CDATA #IMPLIED>
 <!ATTLIST documentation auteur CDATA #IMPLIED>
 
-<!ELEMENT tdf (coureurs | equipes | dossards | velos | sponsors | #PCDATA)*>
+<!ELEMENT tdf (#PCDATA | coureurs | equipes | dossards | velos | sponsors)*>
 
 <!ELEMENT coureurs (coureur*)>
 <!ELEMENT coureur (nomC, prenomC,tempsC,nationaliteC)>
 <!ELEMENT nomC (#PCDATA)>
 <!ELEMENT prenomC (#PCDATA)>
-<!ELEMENT nationalite (#PCDATA)>
 <!ELEMENT temps (#PCDATA)>
+<!ELEMENT nationalite (#PCDATA)>
 <!ATTLIST coureur idC ID #REQUIRED>
-<!ATTLIST coureur idE ID #IMPLIED>
+<!ATTLIST coureur idE IDREF #IMPLIED>
 
 <!ELEMENT equipes (equipe*)>
 <!ELEMENT equipe (nomE,budgetE,score_influenceC)>
@@ -21,7 +21,7 @@
 <!ELEMENT budgetE (#PCDATA)>
 <!ELEMENT score_influence (#PCDATA)>
 <!ATTLIST equipe idEquipe ID #REQUIRED>
-<!ATTLIST equipe idSponsorE ID #IMPLIED>
+<!ATTLIST equipe idSponsorE IDREF #IMPLIED>
 
 <!ELEMENT dossards (dossard*)>
 <!ELEMENT dossard (nomD, couleurD)>
