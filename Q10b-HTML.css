@@ -183,3 +183,15 @@ h4{
     font-size: 150%;
     padding: 2%
 }
+.xpath{
+    padding: 2% 10% 2% 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.requette{
+    text-align: center;
+    padding-top: 1%;
+    border: solid;
+    margin-top: 50px;
+}
