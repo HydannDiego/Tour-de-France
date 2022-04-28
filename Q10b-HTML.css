@@ -1,10 +1,8 @@
 *{
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    padding: 0;
-    list-style:none;
     box-sizing: border-box;
-    text-decoration: none;
+    /*text-decoration: none;*/
 
 
   }
@@ -65,7 +63,7 @@ h1 {
 }
 
 .presentation{
-    height: 200%;
+    height: 15em;
     width: 100%;
 }
 .presentationdroite{
@@ -152,15 +150,36 @@ table{
     width: 40%;
 }
 .fav{
+    height: 50%;
     width: 60%;
     float: right;
 
 }
 
 .mcd-container {
-    padding: 5px;
+    padding: 2%;
     text-align: center;
     display: block;
     align-items: center;
     justify-content: center;
+}
+.coureur{
+
+padding: 5% 35% 5% 35%;    
+}
+
+caption{
+    font-size: 105%;
+    padding: 5%;
+}
+.end{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    padding-bottom: 5%;
+}
+h4{
+    font-size: 150%;
+    padding: 2%
 }
