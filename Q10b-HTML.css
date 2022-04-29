@@ -208,7 +208,6 @@ h4{
 caption{
     text-align: center;
     font-size: 150%;
-    font-style: bold;
 }
 .container{
     text-align: center;
@@ -228,4 +227,8 @@ img{
 p a {
     color: orange;
     border-radius: 5rem;
+}
+
+.requette > img{
+    width: 80%;
 }
