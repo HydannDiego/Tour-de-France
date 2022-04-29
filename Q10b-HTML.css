@@ -204,9 +204,7 @@ h4{
     flex-direction: column;
     padding: 2% 2% 10% 2%;
 }
-.demo{
-    
-}
+
 caption{
     text-align: center;
     font-size: 150%;
@@ -225,4 +223,9 @@ h3{
 img{
     max-width: 100%;
     height: auto;
+}
+
+p a {
+    color: blue;
+    border-radius: 5rem;
 }
