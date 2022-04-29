@@ -35,10 +35,15 @@
         </ul>
     </div>
 
-    <div>
+    <a href="Q8b-XML.xml">
+        <div class="container">
+            <h5>Lien vers le XML</h5>
+        </div>
+    </a>
+    <div class="table">
 
         <table class="demo">
-            <caption>Table étape</caption>
+            <caption>Table Étape</caption>
             <tr>
                 <th>ide</th>
                 <th>distance</th>
@@ -77,13 +82,14 @@
         </table>
 
         <table class="demo">
-            <caption>Table étape</caption>
+            <caption>Table Coureur</caption>
             <tr>
-                <th>ide</th>
-                <th>distance</th>
-                <th>ville_depart</th>
-                <th>ville_arrive</th>
-                <th>typeetape</th>
+                <th>idC</th>
+                <th>prenom</th>
+                <th>nom</th>
+                <th>temps</th>
+                <th>nationalite</th>
+                <th><strong>idTeam</strong></th>
             </tr>
             <tr>
                 <td>1</td>
@@ -91,6 +97,7 @@
                 <td>GROSGEAN</td>
                 <td>00:00:00</td>
                 <td>France</td>
+                <td>1</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -98,6 +105,7 @@
                 <td>Roskilde</td>
                 <td>00:00:00</td>
                 <td>Danemark</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>3</td>
@@ -105,6 +113,7 @@
                 <td>Vejle</td>
                 <td>00:00:00</td>
                 <td>Ethiopie</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>4</td>
@@ -112,17 +121,17 @@
                 <td>Dunkerque</td>
                 <td>00:00:00</td>
                 <td>France</td>
+                <td>1</td>
             </tr>
         </table>
 
         <table class="demo">
-            <caption>Dossard</caption>
+            <caption>Table Dossard</caption>
             <tr>
-                <th>ide</th>
-                <th>distance</th>
-                <th>ville_depart</th>
-                <th>ville_arrive</th>
-                <th>typeetape</th>
+                <th>idD</th>
+                <th>nom</th>
+                <th>couleur</th>
+                <th><strong>idC</strong></th>
             </tr>
             <tr>
                 <td>1</td>
@@ -145,13 +154,12 @@
         </table>
 
         <table class="demo">
-            <caption>Equipe</caption>
+            <caption>Table Équipe</caption>
             <tr>
-                <th>ide</th>
-                <th>distance</th>
-                <th>ville_depart</th>
-                <th>ville_arrive</th>
-                <th>typeetape</th>
+                <th>idTeam</th>
+                <th>nom</th>
+                <th>budget</th>
+                <th>score_infulance</th>
             </tr>
             <tr>
                 <td>1</td>
@@ -197,13 +205,11 @@
         </table>
 
         <table class="demo">
-            <caption>Sponsor</caption>
+            <caption><strong>Table Sponsor</strong></caption>
             <tr>
-                <th>ide</th>
-                <th>distance</th>
-                <th>ville_depart</th>
-                <th>ville_arrive</th>
-                <th>typeetape</th>
+                <th>idSponsor</th>
+                <th>nom</th>
+                <th>reputation</th>
             </tr>
             <tr>
                 <td>1</td>
@@ -231,13 +237,13 @@
         </table>
 
         <table class="demo">
-            <caption>Velo</caption>
+            <caption>Table Vélo</caption>
             <tr>
-                <th>ide</th>
-                <th>distance</th>
-                <th>ville_depart</th>
-                <th>ville_arrive</th>
-                <th>typeetape</th>
+                <th>idV</th>
+                <th>prix</th>
+                <th>marque</th>
+                <th>type</th>
+                <th><strong>idC</strong>></th>
             </tr>
             <tr>
                 <td>1</td>
@@ -266,11 +272,7 @@
         </table>
 
     </div>
-    <a href="Q8b-XML.xml">
-        <div class="container">
-            <h5>Lien vers le XML</h5>
-        </div>
-    </a>
+
 
 
 </body>
